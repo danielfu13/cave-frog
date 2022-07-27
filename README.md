@@ -12,20 +12,30 @@
 
   ## Project Description
 
-  This project is a Team Profile Generator. The purpose of this project is to build a Team Profile Generator that will take information about employees on a software engineering team and
-  generate an HTML webpage that displays summaries of each person. Since testing is key to making code maintainable, I have written a unit test for each part of my code to ensure that it passes each test.
+ The purpose of this project is to build the back end for an e-commerce site by modifying starter code. I used Express.js API and Sequelize to interact with MySQL database. Since e-commerce is the largest sector of the electronic industry, understanding the fundamental architecture of these platforms will benefit me as a full-stack web developer.
+
+ To view my recorded video on how to run the app, click this <a href="https://drive.google.com/file/d/1Vt7psELGOo2zZ46JVerVyzewvrmwfNF4/view">video</a>.
 
   ## Installation 
 
-Download the zip file and open the file in a terminal. 
-  
+Download the zip file and extract on your local computer. Then open the code in VScode and add a .env file to the root of the app with the following details: 
+
+```text
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PW='xxx'
+```
+Then open up a terminal window and use the following commands: 
+
+```text
+$ npm install
+$ npm start
+```
+
   ## Usage
 
-Run the command: node index.js
+The use of this back end e-commerce application is to use Express.js API and Sequelize to interact with MySQL database. With this application, you can alter different routes and data to fit your personal needs.
 
-Fill in the prompts to create Team Profile Generator!
-
-Open index.html file in page folder to view completed Team Profile Generator.
 
   ## Contributors
 
